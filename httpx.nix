@@ -7,7 +7,7 @@ let
 in
 mavenJdk17.buildMavenPackage rec {
   pname = "httpx-cli";
-  version = "v0.43.3";
+  version = "0.43.3";
 
   metadata = fetchurl {
     name = "graalvm-reachability-metadata.zip";
